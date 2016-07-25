@@ -16,7 +16,7 @@ call plug#begin()
 Plug 'gmarik/Vundle.vim'
 
 " ----- Making Vim look good ------------------------------------------
-Plug 'altercation/vim-colors-solarized'
+"Plug 'altercation/vim-colors-solarized'
 Plug 'tomasr/molokai'
 Plug 'bling/vim-airline'
 
@@ -83,13 +83,13 @@ set mouse=a
 
 " ----- altercation/vim-colors-solarized settings -----
 " Toggle this to "light" for light colorscheme
-set background=dark
+"set background=dark
 
 " Uncomment the next line if your terminal is not configured for solarized
 "let g:solarized_termcolors=256
 
 " Set the colorscheme
-colorscheme solarized
+colorscheme desert
 
 
 " ----- bling/vim-airline settings -----
