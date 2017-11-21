@@ -46,6 +46,9 @@ Plug 'jez/vim-c0'
 Plug 'jez/vim-ispc'
 Plug 'kchmck/vim-coffee-script'
 
+" ---- Evidenzia le tabulazioni verticali ----------------------------------------
+Plug 'yggdroot/indentline'
+
 " ---- Extras/Advanced plugins ----------------------------------------
 " Highlight and strip trailing whitespace
 "Plug 'ntpeters/vim-better-whitespace'
@@ -167,3 +170,6 @@ augroup mydelimitMate
   au FileType tex let b:delimitMate_matchpairs = "(:),[:],{:},`:'"
   au FileType python let b:delimitMate_nesting_quotes = ['"', "'"]
 augroup END
+
+" ----- yggdroot/indentline -----
+let g:indentLine_char = '┆'
