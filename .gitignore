@@ -1,2 +1,4 @@
 .netrwhist
 /backup
+*.swp
+workspace.code-workspace
